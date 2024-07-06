@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f2f2f2;
+  background-color: #3b3b3b;
   margin: 0;
 }
 
@@ -65,4 +65,32 @@ header {
 
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
+}
+
+.cardPokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+  width: 300px;
+  background-color: #888888;
+  border: white 0.3px solid;
+}
+
+.cardPokemon img {
+  width: 70%;
+}
+
+.pokemonInfo{
+  background-color: #888888;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.pokemonInfo img {
+  height: 400px;
 }
